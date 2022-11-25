@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T03:54:16.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="bG3rQeDIMAw9A4feKx3j" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T03:57:57.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="__DN5jeUvig0ecmSfokx" type="github">
   <diagram id="fwG7JPQ1PlgV7cjP7vGq" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,6 +61,20 @@
         <mxCell id="s-cP2JgDxqyjipvLWrZl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s-cP2JgDxqyjipvLWrZl-15" target="s-cP2JgDxqyjipvLWrZl-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-cP2JgDxqyjipvLWrZl-28" value="SpuSearchLiteApi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="250" width="300" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="s-cP2JgDxqyjipvLWrZl-30" value="searchSpu(requestVO)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s-cP2JgDxqyjipvLWrZl-28">
+          <mxGeometry x="37" y="390" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s-cP2JgDxqyjipvLWrZl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-cP2JgDxqyjipvLWrZl-25" target="s-cP2JgDxqyjipvLWrZl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-cP2JgDxqyjipvLWrZl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="s-cP2JgDxqyjipvLWrZl-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829" y="750" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
