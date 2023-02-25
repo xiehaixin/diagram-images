@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T15:12:49.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-9fujrpzSDiZi64n9xgq" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T16:18:17.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UZJ3IYIHsojARHsIU9hm" version="20.8.13" type="github">
   <diagram name="第 1 页" id="52t3P1yrXDJVjfL1W7q6">
-    <mxGraphModel dx="2069" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-2" value="getPageList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="40" width="740" height="30" as="geometry" />
+          <mxGeometry x="-390" y="40" width="1520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-3" target="MqWYr26gOcOxtjKLu0Fl-6">
           <mxGeometry relative="1" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="-170" y="150" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-5" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="360" width="130" height="40" as="geometry" />
+          <mxGeometry x="-380" y="555" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-6" target="MqWYr26gOcOxtjKLu0Fl-5">
           <mxGeometry relative="1" as="geometry" />
@@ -76,17 +76,54 @@
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-19" value="paginationResponse.setHasNextPage(true);&lt;br&gt;这里就赋个默认值 true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="787.5" y="260" width="265" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-23" target="MqWYr26gOcOxtjKLu0Fl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-33" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MqWYr26gOcOxtjKLu0Fl-30">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-23" target="MqWYr26gOcOxtjKLu0Fl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-34" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MqWYr26gOcOxtjKLu0Fl-32">
+          <mxGeometry x="-0.2348" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-23" value="recommendSpuListResponses.size() &lt;br&gt;小于请求num * page&lt;br&gt;（山姆没有下一页了）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="380" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MqWYr26gOcOxtjKLu0Fl-27" value="recommendSpuListResponses" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="310" width="320" height="90" as="geometry" />
+          <mxGeometry x="340" y="270" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MqWYr26gOcOxtjKLu0Fl-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-27" target="MqWYr26gOcOxtjKLu0Fl-23">
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-27" target="MqWYr26gOcOxtjKLu0Fl-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="440" as="sourcePoint" />
             <mxPoint x="650" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-29" target="MqWYr26gOcOxtjKLu0Fl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-29" value="&amp;nbsp; &amp;nbsp;recommendResultMap&lt;br&gt;&amp;nbsp; &amp;nbsp;赋值没有下一页&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;recommendResultMap&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;.setRecommendPageNum(spuRecommendRequestVO.getPageNum() + 1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; recommendResultMap.setOurPageNum(1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; recommendResultMap.setCacheOrNot(false);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!recommendResultMap.getRecommendHasNextPage()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; paginationResponse.setHasNextPage(false);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="702.5" y="500" width="435" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-31" target="MqWYr26gOcOxtjKLu0Fl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-31" value="从recommendSpuListResponses中&lt;br&gt;获取足够数量的返回值&lt;br&gt;int startIndexa = (pageNum * pageSize) &amp;gt; size &lt;br&gt;? size : a&lt;br&gt;&lt;br&gt;&lt;div&gt;recommendSpuListResponses =&lt;/div&gt;&lt;div&gt;&amp;nbsp;recommendSpuListResponses&lt;/div&gt;&lt;div&gt;.stream()&lt;/div&gt;&lt;div&gt;.skip(startIndex)&lt;/div&gt;&lt;div&gt;.limit(request.getPageSize())&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.collect(toList());&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="477.5" width="290" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-36" value="&lt;div&gt;recommendResultMap.setResponseNum(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; recommendResultMap.getResponseNum() == null ? recommendSpuListResponses.size()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; : recommendResultMap.getResponseNum() + recommendSpuListResponses.size());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="527.5" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqWYr26gOcOxtjKLu0Fl-38" target="MqWYr26gOcOxtjKLu0Fl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqWYr26gOcOxtjKLu0Fl-38" value="设置埋点数据&lt;br&gt;查商品详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="545" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
